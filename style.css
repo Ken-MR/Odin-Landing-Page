@@ -1,3 +1,52 @@
 body {
-    padding: 0px 
+    font-family: "roboto", sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 150px;
+    background-color: #1F2937;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    color: #EFE7EB;
+    padding-left: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.hero {
+    flex: 4;
+}
+
+.info {
+    flex: 4;
+}
+
+.quote {
+    flex: 4;
+}
+
+.action {
+    flex: 4;
+}    
+
+.footer {
+    flex: 1;
 }
