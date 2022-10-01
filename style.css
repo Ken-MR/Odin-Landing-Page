@@ -57,10 +57,61 @@ ul {
 
 .info {
     flex: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px 100px 200px;
+    gap: 24px;
+    color: #1F2937;
+}
+
+.main-info {
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sub-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.img-info {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    width: 200px;
 }
 
 .quote {
     flex: 4;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 100px 200px;
+    gap: 8px;
+}
+
+.testimony {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.customer {
+    font-weight: bold;
+    text-align: right;
 }
 
 .action {
